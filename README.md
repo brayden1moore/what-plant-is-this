@@ -15,17 +15,17 @@ Welcome to the WPiT repository. This project is an image recognition model speci
 ## Introduction
 
 I've always been terrible at identifying plants. And when you've got to walk through 50 yards of tall brush to get to your camping spot, it's good to know if it's Queen Anne's Lace or Poison Parsnip that's about to brush up against your leg.<br><br>
-Thanks to the [Global Biodiversity Information Facility](https://www.gbif.org) and their Occurrence database, I was able to train a vision model on ~80k plant images (augmented with Torchvision transforms) from the U.S. and Canada, labeled with their species and feature (leaf, flower, or fruit).<br><br>
+Thanks to the [Global Biodiversity Information Facility](https://www.gbif.org) and their Occurrence database, I was able to train a vision model on ~85k plant images (augmented with Torchvision transforms) from the U.S. and Canada, labeled with their species and feature (leaf, flower, or fruit).<br><br>
 There are around 3,800 unique species in the data -- some of which may not have made it into the training set -- which makes classification challenging. To increase usability, I opted to have the app return the top 9 predictions. In testing, the correct species is within these 9 predictions for 79% of flowers, 78% of fruits, and 60% of leaves. I think this makes sense, since there is much more variability in color among flowers and fruits than leaves.<br><br>
 Try it out [here](https://www.braydenmoore.com/plant).
 
 ## Features
 
+- Around 85,000 labeled plant images.
 - Google Vision Transformer feature extractor.
-- Convolutional Neural Network (CNN).
 - Pre-trained model for direct usage or as a starting point for further training.
 - Python scripts to train and test.
-- Web app for interactive plant image recognition.
+- Flask web app for interactive plant image recognition.
 
 ## Installation
 
