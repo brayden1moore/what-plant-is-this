@@ -1,0 +1,8 @@
+torch
+torchvision
+pillow
+tqdm
+argparse
+transformers
+pathlib
+flask

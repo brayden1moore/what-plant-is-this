@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>What Plant Is This?</title>
+  <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+  <div class="header">
+    <h1>What Plant is This?</h1>
+    <p> Have a neural net try to identify the plant you found.</p>
+
+    <div class="feature-select">
+    <label for="feature">This is a picture of a...</label>
+    <select name="feature" id="feature-select">
+      <option value="flower">flower</option>
+      <option value="leaf">leaf</option>
+      <option value="fruit">fruit</option>
+    </select>
+  </div>
+
+  </div>
+
+  <div class="container">
+    <div id="image-dropzone" class="dropzone">
+      <p>Drop an image</p>
+    </div>
+    <img id="uploaded-image" src="#" alt="Uploaded Image" />
+    <div class="right-container">
+      <h2 id="thinking-text">Suggestions will load here...</h2>
+      <div class="image-grid">
+        <div id="predicted-images">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add the GitHub link and icon below the container -->
+  <div class="github-container">
+    <a href="https://github.com/brayden1moore/What-Plant-Is-This" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" height=20px />
+      <p> See the code</p>
+    </a>
+  </div>
+
+  <div class="spacing">
+    <p><br> <br> <br> </p>
+  </div>
+  <script src="static/script.js"></script>
+</body>
+</html>
