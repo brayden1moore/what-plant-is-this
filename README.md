@@ -1,6 +1,6 @@
 # What Plant Is This?
 
-Welcome to the WPiT repository. This project is an image recognition model specifically designed for identifying plants. It utilizes a Convolutional Neural Network (CNN) with an upstream Google Vision Transformer feature extractor to achieve accurate plant classification suggestions.
+Welcome to the WPiT repository. This project is an image recognition model specifically designed for identifying plants. It utilizes a Google Vision Transformer feature extractor with downstream dense layers to achieve accurate plant classification suggestions.
 
 ## Table of Contents
 
